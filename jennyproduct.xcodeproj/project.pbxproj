@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EAD4C6974EE040BC51FC9EE /* Pods_jennyproduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC90F161CF7D6AB379A2B8A /* Pods_jennyproduct.framework */; };
+		286FA78D827547E49DA98114 /* Pods_jennyproductTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C50551E9BD38DCC453A9AC /* Pods_jennyproductTests.framework */; };
+		A3252BDC9825FDAEDA9FD724 /* Pods_jennyproduct_jennyproductUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB28D7C8853FB3878D7DDF17 /* Pods_jennyproduct_jennyproductUITests.framework */; };
 		BA066DFC24CDA44600332996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA066DFB24CDA44600332996 /* AppDelegate.swift */; };
 		BA066DFE24CDA44600332996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA066DFD24CDA44600332996 /* SceneDelegate.swift */; };
 		BA066E0024CDA44600332996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA066DFF24CDA44600332996 /* ContentView.swift */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045A6D1016DBF3E5342610BD /* Pods-jennyproduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jennyproduct.debug.xcconfig"; path = "Target Support Files/Pods-jennyproduct/Pods-jennyproduct.debug.xcconfig"; sourceTree = "<group>"; };
+		2D660C162376D89CD4DFFE12 /* Pods-jennyproduct-jennyproductUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jennyproduct-jennyproductUITests.debug.xcconfig"; path = "Target Support Files/Pods-jennyproduct-jennyproductUITests/Pods-jennyproduct-jennyproductUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35B172533DBC54170FCA8303 /* Pods-jennyproductTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jennyproductTests.debug.xcconfig"; path = "Target Support Files/Pods-jennyproductTests/Pods-jennyproductTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AE6DD9D772D4AFED237F9B1 /* Pods-jennyproduct-jennyproductUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jennyproduct-jennyproductUITests.release.xcconfig"; path = "Target Support Files/Pods-jennyproduct-jennyproductUITests/Pods-jennyproduct-jennyproductUITests.release.xcconfig"; sourceTree = "<group>"; };
+		897E50F0FD6473A33D0CBBE3 /* Pods-jennyproduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jennyproduct.release.xcconfig"; path = "Target Support Files/Pods-jennyproduct/Pods-jennyproduct.release.xcconfig"; sourceTree = "<group>"; };
+		9F8FDCAA2A91CC7E00541B70 /* jennyproduct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jennyproduct.entitlements; sourceTree = "<group>"; };
+		B0DE4E26B848DD3C7F48706A /* Pods-jennyproductTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jennyproductTests.release.xcconfig"; path = "Target Support Files/Pods-jennyproductTests/Pods-jennyproductTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA066DF824CDA44600332996 /* jennyproduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jennyproduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA066DFB24CDA44600332996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA066DFD24CDA44600332996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,9 @@
 		BA066E1924CDA44800332996 /* jennyproductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jennyproductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA066E1D24CDA44800332996 /* jennyproductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jennyproductUITests.swift; sourceTree = "<group>"; };
 		BA066E1F24CDA44800332996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB28D7C8853FB3878D7DDF17 /* Pods_jennyproduct_jennyproductUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jennyproduct_jennyproductUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C50551E9BD38DCC453A9AC /* Pods_jennyproductTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jennyproductTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC90F161CF7D6AB379A2B8A /* Pods_jennyproduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jennyproduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAD4C6974EE040BC51FC9EE /* Pods_jennyproduct.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286FA78D827547E49DA98114 /* Pods_jennyproductTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3252BDC9825FDAEDA9FD724 /* Pods_jennyproduct_jennyproductUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F127B1E448D81839CC6855F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				045A6D1016DBF3E5342610BD /* Pods-jennyproduct.debug.xcconfig */,
+				897E50F0FD6473A33D0CBBE3 /* Pods-jennyproduct.release.xcconfig */,
+				2D660C162376D89CD4DFFE12 /* Pods-jennyproduct-jennyproductUITests.debug.xcconfig */,
+				4AE6DD9D772D4AFED237F9B1 /* Pods-jennyproduct-jennyproductUITests.release.xcconfig */,
+				35B172533DBC54170FCA8303 /* Pods-jennyproductTests.debug.xcconfig */,
+				B0DE4E26B848DD3C7F48706A /* Pods-jennyproductTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		413B72642CA5C6E709AFC285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC90F161CF7D6AB379A2B8A /* Pods_jennyproduct.framework */,
+				BB28D7C8853FB3878D7DDF17 /* Pods_jennyproduct_jennyproductUITests.framework */,
+				C8C50551E9BD38DCC453A9AC /* Pods_jennyproductTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA066DEF24CDA44600332996 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				BA066E1124CDA44800332996 /* jennyproductTests */,
 				BA066E1C24CDA44800332996 /* jennyproductUITests */,
 				BA066DF924CDA44600332996 /* Products */,
+				3F127B1E448D81839CC6855F /* Pods */,
+				413B72642CA5C6E709AFC285 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +140,7 @@
 		BA066DFA24CDA44600332996 /* jennyproduct */ = {
 			isa = PBXGroup;
 			children = (
+				9F8FDCAA2A91CC7E00541B70 /* jennyproduct.entitlements */,
 				BA066DFB24CDA44600332996 /* AppDelegate.swift */,
 				BA066DFD24CDA44600332996 /* SceneDelegate.swift */,
 				BA066DFF24CDA44600332996 /* ContentView.swift */,
@@ -143,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA066E2224CDA44800332996 /* Build configuration list for PBXNativeTarget "jennyproduct" */;
 			buildPhases = (
+				05C4057E620F9B3FC50260A0 /* [CP] Check Pods Manifest.lock */,
 				BA066DF424CDA44600332996 /* Sources */,
 				BA066DF524CDA44600332996 /* Frameworks */,
 				BA066DF624CDA44600332996 /* Resources */,
+				18EA9BD58F379A4EFE0428AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA066E2524CDA44800332996 /* Build configuration list for PBXNativeTarget "jennyproductTests" */;
 			buildPhases = (
+				455978AAB22F028C69C0B2C2 /* [CP] Check Pods Manifest.lock */,
 				BA066E0A24CDA44800332996 /* Sources */,
 				BA066E0B24CDA44800332996 /* Frameworks */,
 				BA066E0C24CDA44800332996 /* Resources */,
@@ -178,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA066E2824CDA44800332996 /* Build configuration list for PBXNativeTarget "jennyproductUITests" */;
 			buildPhases = (
+				5C7EF158C0BD5D5BB66BC734 /* [CP] Check Pods Manifest.lock */,
 				BA066E1524CDA44800332996 /* Sources */,
 				BA066E1624CDA44800332996 /* Frameworks */,
 				BA066E1724CDA44800332996 /* Resources */,
+				F6A0CEB830720CB913AC039D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,8 +245,9 @@
 		BA066DF024CDA44600332996 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = jenny;
 				TargetAttributes = {
 					BA066DF724CDA44600332996 = {
@@ -261,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C4057E620F9B3FC50260A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jennyproduct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18EA9BD58F379A4EFE0428AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jennyproduct/Pods-jennyproduct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jennyproduct/Pods-jennyproduct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jennyproduct/Pods-jennyproduct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		455978AAB22F028C69C0B2C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jennyproductTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7EF158C0BD5D5BB66BC734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jennyproduct-jennyproductUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A0CEB830720CB913AC039D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jennyproduct-jennyproductUITests/Pods-jennyproduct-jennyproductUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jennyproduct-jennyproductUITests/Pods-jennyproduct-jennyproductUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jennyproduct-jennyproductUITests/Pods-jennyproduct-jennyproductUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA066DF424CDA44600332996 /* Sources */ = {
@@ -342,6 +493,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +554,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -432,15 +585,48 @@
 		};
 		BA066E2324CDA44800332996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045A6D1016DBF3E5342610BD /* Pods-jennyproduct.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jennyproduct/jennyproduct.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"jennyproduct/Preview Content\"";
+				DEVELOPMENT_TEAM = KCP6RNKJM9;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers\"",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers\"",
+				);
 				INFOPLIST_FILE = jennyproduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.jennyproduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,15 +637,48 @@
 		};
 		BA066E2424CDA44800332996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897E50F0FD6473A33D0CBBE3 /* Pods-jennyproduct.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jennyproduct/jennyproduct.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"jennyproduct/Preview Content\"";
+				DEVELOPMENT_TEAM = KCP6RNKJM9;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers\"",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers\"",
+				);
 				INFOPLIST_FILE = jennyproduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.jennyproduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -470,16 +689,28 @@
 		};
 		BA066E2624CDA44800332996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B172533DBC54170FCA8303 /* Pods-jennyproductTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
 				INFOPLIST_FILE = jennyproductTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.jennyproductTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,16 +722,28 @@
 		};
 		BA066E2724CDA44800332996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DE4E26B848DD3C7F48706A /* Pods-jennyproductTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
 				INFOPLIST_FILE = jennyproductTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.jennyproductTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,14 +755,26 @@
 		};
 		BA066E2924CDA44800332996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D660C162376D89CD4DFFE12 /* Pods-jennyproduct-jennyproductUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
 				INFOPLIST_FILE = jennyproductUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.jennyproductUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,14 +786,26 @@
 		};
 		BA066E2A24CDA44800332996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE6DD9D772D4AFED237F9B1 /* Pods-jennyproduct-jennyproductUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift\"",
+				);
 				INFOPLIST_FILE = jennyproductUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Security\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenny.jennyproductUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
